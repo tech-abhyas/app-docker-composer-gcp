@@ -1,0 +1,27 @@
+{
+  "name": "docker-compose-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "We can easily run the whole with only a single command:\r ```bash\r docker-compose up\r ```",
+  "main": "bezkoder-app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bezkoder-app/server.js",
+    "dev": "nodemon bezkoder-app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezkoder/docker-compose-nodejs-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bezkoder/docker-compose-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/bezkoder/docker-compose-nodejs-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3"
+  }
+}
